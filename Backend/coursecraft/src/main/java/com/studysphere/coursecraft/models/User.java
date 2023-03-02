@@ -7,38 +7,40 @@ import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection = "users")
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
-public class User {
-    @Id
-    private ObjectId id;
-    private String username;
-    private String password;
-    private String email;
-    private String mobileNo;
-    private String firstname;
-    private String lastname;
-    private boolean isAdmin;
 
-    public User(String username, String email, String password, String mobileNo, String firstname, String lastname, boolean isAdmin){
+public class User {
+
+    protected String username;
+    protected String password;
+    protected String email;
+    protected String mobileNo;
+    protected String firstname;
+    protected String lastname;
+
+    public User(){
+        this.username = null;
+        this.email = null;
+        this.mobileNo = null;
+        this.password = null;
+        this.firstname = null;
+        this.lastname = null;
+    }
+
+    public User(String username, String email, String password, String mobileNo, String firstname, String lastname){
         this.username = username;
         this.password = password;
         this.email = email;
         this.mobileNo = mobileNo;
         this.firstname = firstname;
         this.lastname = lastname;
-        this.isAdmin = isAdmin;
     }
 
-    public User(ObjectId id, String username, String email, String mobileNo, String firstname, String lastname, boolean isAdmin){
-        this.id = id;
+    public User(ObjectId id, String username, String email, String mobileNo, String firstname, String lastname){
+//        this.id = id;
         this.username = username;
         this.email = email;
         this.mobileNo = mobileNo;
         this.firstname = firstname;
         this.lastname = lastname;
-        this.isAdmin = isAdmin;
     }
 }

@@ -1,7 +1,7 @@
 package com.studysphere.coursecraft.controllers;
 
-import com.studysphere.coursecraft.models.User;
-import com.studysphere.coursecraft.services.UserService;
+import com.studysphere.coursecraft.models.Student;
+import com.studysphere.coursecraft.services.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,25 +12,24 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/users")
-public class UserController {
+public class StudentController {
     @Autowired
-    private UserService userService;
+    private StudentService studentService;
 
-    @PostMapping("/register")
-    public ResponseEntity<User> registerUser(@RequestBody Map<String, String> payload) {
+    @PostMapping("/register/student")
+    public ResponseEntity<Student> registerStudent(@RequestBody Map<String, String> payload) {
         String username = payload.get("username");
         String firstname = payload.get("firstname");
         String lastname = payload.get("lastname");
         String email = payload.get("email");
         String password = payload.get("password");
         String mobileNo = payload.get("mobileNo");
-        boolean isAdmin = Boolean.parseBoolean(payload.get("isAdmin"));
-        return new ResponseEntity<User>(userService.createUser(username, email, password, mobileNo, firstname, lastname, isAdmin), HttpStatus.CREATED);
+        return new ResponseEntity<Student>(studentService.createStudent(username, email, password, mobileNo, firstname, lastname), HttpStatus.CREATED);
     }
 
-    @GetMapping("/login")
-    public ResponseEntity<Optional<User>> login(@RequestBody Map<String, String> payload) {
-        Optional<User> response = userService.loginUser(payload.get("username"), payload.get("password"));
+    @GetMapping("/login/student")
+    public ResponseEntity<Optional<Student>> loginStudent(@RequestBody Map<String, String> payload) {
+        Optional<Student> response = studentService.loginUser(payload.get("username"), payload.get("password"));
         if(response.isPresent()){
             return new ResponseEntity<>(response, HttpStatus.ACCEPTED);
         }else{
