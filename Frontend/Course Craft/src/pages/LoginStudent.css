@@ -1,0 +1,341 @@
+.info-child2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1440px;
+  height: 244px;
+}
+.coursecraft5 {
+  position: absolute;
+  top: 192.46px;
+  left: 581px;
+  letter-spacing: 0.04em;
+  display: inline-block;
+  width: 247px;
+  height: 21.83px;
+}
+.group-child39 {
+  position: absolute;
+  top: -0.5px;
+  left: -0.5px;
+  border-right: 1px solid var(--color-lightseagreen-400);
+  box-sizing: border-box;
+  width: 1px;
+  height: 55.9px;
+}
+.craft-your-skills4 {
+  position: absolute;
+  top: 5.87px;
+  left: 23px;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+  display: inline-block;
+  width: 260px;
+  height: 43.66px;
+}
+.line-parent3 {
+  position: absolute;
+  top: 41.75px;
+  left: 705px;
+  width: 283px;
+  height: 54.9px;
+  text-align: left;
+  color: var(--color-black);
+}
+.footer4,
+.info4 {
+  position: absolute;
+  left: 0;
+  width: 1440px;
+  height: 244px;
+}
+.info4 {
+  top: 0;
+}
+.footer4 {
+  top: 780px;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: var(--color-gray-100);
+}
+.group-child40,
+.group-child41 {
+  position: absolute;
+  border-radius: var(--br-14xl);
+}
+.group-child40 {
+  top: 0;
+  left: 0;
+  background-color: var(--color-lightseagreen-300);
+  width: 362.04px;
+  height: 69.31px;
+}
+.group-child41 {
+  top: 11.75px;
+  left: 14.31px;
+  width: 160.66px;
+  height: 46.99px;
+}
+.login7,
+.register3 {
+  position: absolute;
+  top: 21.14px;
+  display: inline-block;
+  height: 28.19px;
+}
+.login7 {
+  left: 70.43px;
+  font-weight: 500;
+  width: 47.32px;
+}
+.register3 {
+  left: 224.49px;
+  width: 71.53px;
+  cursor: pointer;
+}
+.rectangle-parent24 {
+  position: absolute;
+  top: 71.66px;
+  left: 0;
+  width: 362.04px;
+  height: 69.31px;
+}
+.welcome-to-coursecraft3 {
+  position: absolute;
+  top: 0;
+  left: 39.62px;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  width: 283.91px;
+  height: 35.24px;
+}
+.group-parent7 {
+  position: relative;
+  width: 362.04px;
+  height: 140.96px;
+  flex-shrink: 0;
+}
+.group-child42 {
+  position: absolute;
+  top: 35.24px;
+  left: 0;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lightseagreen-100);
+  box-sizing: border-box;
+  width: 478.69px;
+  height: 63.43px;
+}
+.enter-your-user3,
+.user-name3 {
+  position: absolute;
+  display: inline-block;
+}
+.user-name3 {
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  width: 130.95px;
+  height: 35.24px;
+}
+.enter-your-user3 {
+  top: 52.86px;
+  left: 34.11px;
+  font-size: var(--font-size-mini);
+  font-weight: 300;
+  color: var(--color-gray-100);
+  width: 371.06px;
+  height: 27.02px;
+  outline: none;
+  border: none;
+
+}
+
+.rectangle-parent25 {
+  position: absolute;
+  top: 138.61px;
+  left: 0;
+  width: 478.69px;
+  height: 98.67px;
+}
+.enter-your-password3,
+.password3 {
+  position: absolute;
+  display: inline-block;
+}
+.password3 {
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  width: 126.55px;
+  height: 35.24px;
+}
+.enter-your-password3 {
+  top: 52.86px;
+  left: 34.11px;
+  font-size: var(--font-size-mini);
+  font-weight: 300;
+  color: var(--color-gray-100);
+  width: 371.06px;
+  height: 27.02px;
+  outline: none;
+  border: none;
+}
+.rectangle-parent26 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 478.69px;
+  height: 98.67px;
+}
+.invisible-1-icon3 {
+  position: absolute;
+  top: 56.38px;
+  left: 428.07px;
+  width: 19.81px;
+  height: 21.14px;
+  overflow: hidden;
+}
+.group-parent9,
+.login-to-continue1 {
+  position: absolute;
+  top: 279.57px;
+  left: 0;
+  width: 478.69px;
+  height: 98.67px;
+}
+.login-to-continue1 {
+  top: 0;
+  font-size: var(--font-size-13xl);
+  display: inline-block;
+  font-family: var(--font-sora);
+  color: var(--color-sandybrown);
+  width: 499.59px;
+  height: 29.37px;
+}
+.group-parent8 {
+  position: relative;
+  width: 499.59px;
+  height: 378.25px;
+  flex-shrink: 0;
+  font-size: var(--font-size-xl);
+  color: var(--color-lightseagreen-100);
+}
+.group-child44 {
+  position: absolute;
+  top: 4.7px;
+  left: 0;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 16.51px;
+  height: 17.62px;
+}
+.forgot-password3,
+.rememebr-me1 {
+  position: absolute;
+  top: 0;
+  font-weight: 300;
+  display: inline-block;
+  height: 28.19px;
+}
+.rememebr-me1 {
+  left: 27.51px;
+  width: 132.05px;
+}
+.forgot-password3 {
+  left: 356.54px;
+  width: 158.46px;
+}
+.rectangle-parent27 {
+  position: relative;
+  width: 515px;
+  height: 28.19px;
+  flex-shrink: 0;
+}
+.group-child45 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-17xl);
+  background-color: var(--color-lightseagreen-100);
+  width: 255.3px;
+  height: 57.56px;
+}
+.login8 {
+  position: absolute;
+  top: 15.27px;
+  left: 103.44px;
+  display: inline-block;
+  width: 47.32px;
+  height: 28.19px;
+}
+.rectangle-parent28 {
+  position: relative;
+  width: 255.3px;
+  height: 57.56px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.box-login-page3 {
+  position: absolute;
+  top: 30px;
+  left: 828px;
+  width: 515px;
+  height: 679.96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.image-login-page-icon3 {
+  position: absolute;
+  height: 53.81%;
+  width: 39.78%;
+  top: 9.96%;
+  right: 53%;
+  bottom: 36.23%;
+  left: 7.22%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.logo-icon4 {
+  position: absolute;
+  top: 796px;
+  left: 536px;
+  border-radius: var(--br-161xl);
+  width: 115px;
+  height: 112px;
+  object-fit: cover;
+}
+.login-student-child,
+.trainer1 {
+  position: absolute;
+  top: 700.96px;
+  left: 88px;
+  width: 127.22px;
+  height: 22.09px;
+}
+.trainer1 {
+  top: 684px;
+  left: 110px;
+  font-weight: 500;
+  display: inline-block;
+  width: 112px;
+  height: 29px;
+  cursor: pointer;
+}
+.login-student {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
